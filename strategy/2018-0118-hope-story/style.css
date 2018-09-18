@@ -375,7 +375,7 @@ table {
 .callout {
 	height: 200px;
 	color: #fff;
-	background: #007888 url('http://hope.edu/admiss/email/strategy/2018-0118-hope-story/img/callout.jpg') no-repeat top center;
+	background: #007888 url('https://hope.edu/admiss/email/strategy/2018-0118-hope-story/img/callout.jpg') no-repeat top center;
 }
 
 .callout-title {
@@ -547,7 +547,7 @@ ol.content-list {
 	}
 
 	.callout {
-		background: #007888 url('http://hope.edu/admiss/email/strategy/2018-0118-hope-story/img/callout_retina.jpg') no-repeat top center !important;
+		background: #007888 url('https://hope.edu/admiss/email/strategy/2018-0118-hope-story/img/callout_retina.jpg') no-repeat top center !important;
 		background-size: cover !important;
 	}
 }

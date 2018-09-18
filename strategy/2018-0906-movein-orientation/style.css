@@ -50,7 +50,7 @@ table {
 .hero {
 	height: 230px;
 	color: #fff;
-	background: #444 url('http://www.hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/hero.jpg') no-repeat center center;
+	background: #444 url('https://www.hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/hero.jpg') no-repeat center center;
 }
 
 .hero-title {
@@ -390,7 +390,7 @@ table {
 .callout {
 	height: 200px;
 	color: #fff;
-	background: #007888 url('http://hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/callout.jpg') no-repeat top center;
+	background: #007888 url('https://hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/callout.jpg') no-repeat top center;
 }
 
 .callout-title {
@@ -562,12 +562,12 @@ ol.content-list {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 	.hero {
-		background: #444 url('http://www.hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/hero_retina.jpg') no-repeat center center !important;
+		background: #444 url('https://www.hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/hero_retina.jpg') no-repeat center center !important;
 		background-size: cover !important;
 	}
 
 	.callout {
-		background: #007888 url('http://hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/callout_retina.jpg') no-repeat top center !important;
+		background: #007888 url('https://hope.edu/admiss/email/strategy/2018-0906-movein-orientation/img/callout_retina.jpg') no-repeat top center !important;
 		background-size: cover !important;
 	}
 }
