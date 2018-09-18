@@ -1,0 +1,54 @@
+.topnav:link {text-decoration: none; font-weight:bolder; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt; color: #FFFFFF}
+.topnav:visited {text-decoration: none; font-weight:bolder; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt; color: #FFFFFF}
+.topnav:hover {text-decoration: underline; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt; color: #FFFFFF; background-color: #666699;}
+.sidenav:link {text-decoration: none; font-weight:bolder; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10pt; color: #FFFFFF}
+.sidenav:visited {text-decoration: none; font-weight:bolder; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10pt; color: #FFFFFF}
+.sidenav:hover {text-decoration: underline; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10pt; color: #FFFFFF; background-color: #666699;}
+.footer:link {text-decoration: underline; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt; color: #000000}
+.footer:visited {text-decoration: underline; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt; color: #000000}
+.footer:p {text-decoration: none; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt; color: #000000}
+.footer:hover {text-decoration: underline; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt; color: #FF6600; background-color: #FFFFFF;}
+
+td {
+	font-size:10pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-variant: normal;
+
+}
+p {
+	font-size:10pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-variant: normal;
+
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003366;
+	font-variant: underline;
+
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003366;
+	font-variant: underline;
+
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003366;
+	font-variant: underline;
+	background-color: #6699CC;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #003366;
+}

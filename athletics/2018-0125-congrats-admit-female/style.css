@@ -1,0 +1,565 @@
+p {
+	margin-bottom: 26px;
+	font-size: 14px;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	mso-line-height-rule:exactly;
+	line-height: 24px;
+	color: #585552;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.block {
+	display: block !important;
+}
+
+.content-img {
+	display: block;
+	width: 100%;
+}
+
+body {
+	width: 100% !important; 
+	height: 100%;
+	-webkit-text-size-adjust: none; 
+	-webkit-font-smoothing: antialiased; 
+}
+
+table {
+	width: 100%;
+}
+
+.table-container {
+	padding: 0 50px;
+	width: 100%;
+}
+
+.header-table {
+	height: 78px;
+	background: #F46A1F;
+}
+
+.hero {
+	height: 230px;
+	color: #fff;
+	background: #444 url('https://hope.edu/admiss/email/athletics/2018-0125-congrats-admit-female/img/hero.jpg') no-repeat center center;
+}
+
+.hero-title {
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	font-size: 24px;
+	margin: 15px auto 10px;
+	font-weight: 800;
+	mso-line-height-rule:exactly;
+	line-height: 110%;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.hero-text {
+	border: 0;
+	/* font: 0/0 a; */
+	text-shadow: none;
+	color: transparent;
+	display: block;
+	width: 80%;
+	mso-line-height-rule:exactly;
+	line-height: 130%;
+	color: #fff;
+}
+
+.hero-text a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.hero-btn {
+	padding-top: 10px;
+}
+
+.hero-btn-link {
+	display: block !important;
+	width: 250px;	
+	height: auto;
+	color: #fff;
+	font-family: 'Open Sans', Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	font-size: 12px;
+	mso-line-height-rule: exactly;
+	line-height: 43px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #00B0CA;
+	border-bottom: 3px solid #00798B;
+}
+
+.ExternalClass .hero-btn {
+	padding-top: 0 !important;
+}
+
+.content-title {
+	margin-top: 0;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	font-size: 19px;
+	mso-line-height-rule:exactly;
+	line-height: 30px;
+	font-weight: normal;
+	color: #585552;
+}
+
+.sub-headline-h2 {
+	margin-bottom: 16px;
+	font-size: 16px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #585552;
+}
+
+.sub-headline-h3 {
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #585552;
+}
+
+.sub-headline-h4 {
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #585552;
+}
+
+.quote {
+	margin-bottom: 18px;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	border-left: 4px solid #5482AB !important;
+  color: #bcbab6 !important;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 175%;
+  padding: 0 0 0 20px;
+}
+
+.footer {
+	height: 340px;
+	color: #fff;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+}
+
+.footer-logo {
+	display: block;
+	margin-bottom: 15px;
+	color: #ffffff; 
+	font-size: 18px;
+}
+
+.footer-address {
+	margin-bottom: 15px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	font-size: 19px;
+	color: #605F5B;
+}
+
+.footer-phone {
+	display: block;
+	margin-bottom: 25px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	font-size: 19px;
+	color: #A2A09A !important;
+	text-decoration: none;
+}
+
+.social-img {
+	display: inline-block;
+	border-style: none !important;
+}
+
+.col-main,
+.col-side { 
+	float: none;
+	width: 100%; 
+}
+
+.col-main a,
+.col-single a,
+.event-body a {
+	color: #5683A9;
+	text-decoration: underline;
+}
+
+.cta-white {
+	margin: 0;
+	font-size: 14px;
+	mso-line-height-rule:exactly;
+	line-height: 20px;
+	color: #646260;
+	background: #fff;
+	border: 1px solid #EAEAEA;
+	border-bottom: 3px solid #D8D7D5 !important;
+}
+
+.cta-event {
+	margin: 0;
+	color: #646260;
+	background: #fff;
+	border: 1px solid #EAEAEA;
+	border-top: 3px solid #33685C !important;
+	border-bottom: 3px solid #D8D7D5 !important;
+}
+
+.cta-orange {
+	margin: 0;
+	padding: 20px;
+	font-size: 16px;
+	mso-line-height-rule:exactly;
+	line-height: 24px;
+	color: #fff;
+	background: #F46A1F;
+	border-bottom: 3px solid #C6561A !important;
+	text-align: center;
+}
+
+.cta-orange span, .cta-orange a {
+	margin: 0 auto !important;
+	color: #ffffff;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	font-size: 16px;
+}
+
+.cta-white p {
+	margin: 0 auto;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	color: #585552;
+	font-size: 16px;
+}
+
+.cta-event-list {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 12px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	mso-line-height-rule:exactly;
+	line-height: 16px;
+	list-style-type: none;
+}
+
+.cta-event-title {
+	margin-top: 0;
+	font-weight: 700;
+	font-size: 11px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Verdana, Arial, sans-serif !important;
+	text-transform: uppercase;
+}
+
+.cta-event-list td {
+	padding: 20px 0;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	border-bottom: 1px solid #D8D7D5;
+}
+
+.cta-event-list td a {
+	display: block;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	color: #363433;
+	text-decoration: none;
+}
+
+.cta-event-list td.first {
+	padding-top: 10px;
+}
+
+.cta-event-list td.last {
+	padding-bottom: 10px;
+	border-bottom: none;
+}
+
+.btn-wrap {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.cta-btn-gray {
+	margin: 22px auto 0;
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	max-width: 160px;
+	height: auto;
+	font-size: 11px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	background: #B7B7B6;
+	border: 1px solid #999;
+	border-radius: 2px;
+}
+
+.ExternalClass .cta-btn-gray {
+	display: inline-block !important;
+}
+
+.event-title {
+	margin-bottom: 14px;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	mso-line-height-rule:exactly;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.event-title a {
+	color: #646260;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.event-date {
+	display: block;
+	margin-bottom: 6px;
+	font-size: 12px;
+	font-family: 'Open Sans', Corbel, 'Lucida Grande', Arial, Verdana, sans-serif;
+	color: #999;
+	text-transform: uppercase;
+}
+
+.event-body {
+	margin-bottom: 10px;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	font-size: 13px;
+	mso-line-height-rule:exactly;
+	line-height: 22px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.clearfix {
+	clear: both !important;
+}
+
+.phone-centered {
+	text-align: center;
+}
+
+.btn-gray-wrap {
+	padding-top: 10px;
+	text-align: center !important;
+	font-size: 1px !important;
+}
+
+.ExternalClass .btn-gray-wrap {
+	padding-top: 0 !important;
+}
+
+.btn-gray {
+	float: none;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	color: #fff;
+	font-family: 'Open Sans', Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	font-size: 12px;
+	mso-line-height-rule:exactly;
+	line-height: 43px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #B7B7B6;
+	border: 1px solid #9D9D9D;
+	border-radius: 4px;
+}
+
+.callout {
+	height: 200px;
+	color: #fff;
+	background: #007888 url('https://hope.edu/admiss/email/athletics/2018-0125-congrats-admit-female/img/callout.jpg') no-repeat top center;
+}
+
+.callout-title {
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	mso-line-height-rule:exactly;
+	line-height: 140%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+}
+
+.callout-btn {
+	float: none;
+	display: block;
+	margin: 0 auto;
+	width: 160px;
+	height: auto;
+	color: #fff;
+	font-family: 'Open Sans', Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	font-size: 12px;
+	mso-line-height-rule:exactly;
+	line-height: 43px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #F0AB00;
+	border-bottom: 3px solid #A77903;
+}
+
+.content-list {
+	margin: 0 0 26px;
+	padding: 0 0 0 20px;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	mso-line-height-rule:exactly;
+	line-height: 24px;
+	color: #585552;
+}
+
+ol.content-list {
+	padding: 0 0 0 24px;
+}
+
+.content-list li {
+	margin-bottom: 8px;
+	padding-right: 24px;
+	font-size: 14px;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	mso-line-height-rule:exactly;
+	line-height: 24px;
+	color: #585552;
+}
+
+@media only screen and (max-width: 320px) {
+	a[class="hero-btn-link"] {
+		width: 90%;
+	}
+}
+
+
+@media only screen and (min-width: 480px) {
+	
+	table[class="hero"] {
+		height: 390px !important;
+	}
+
+	p[class="hero-title"] {
+		font-size: 30px !important;
+	}
+
+	p[class="callout-title"] {
+		float: left !important;
+		width: 60% !important;
+		text-align: left !important;
+	}
+
+	a[class="callout-btn"] {
+		float: right !important;
+		width: 33% !important;
+		margin-top: 6px;
+	}
+
+	.ExternalClass p[class="callout-title"] {
+		width: 100% !important;
+		text-align: center !important;
+	}
+
+	.ExternalClass a[class="callout-btn"] {
+		width: 100% !important;	
+	}
+
+}
+
+@media only screen and (max-width: 659px) {
+	a[class="btn-gray"] {
+		max-width: 50%;
+	}
+}
+
+@media only screen and (min-width: 660px) {
+
+	table[class="col-main"] {
+		float: left !important;
+		width: 410px !important;
+		padding-left: 30px !important;
+		padding-right: 0 !important;
+	}
+
+	table[class="col-side"] {
+		float: right !important;
+		width: 170px !important;
+		padding-left: 0 !important;
+		padding-right: 30px !important;
+	}
+
+	/* Outlook.com fix */
+	.ExternalClass table[class="col-main"], 
+	.ExternalClass table[class="col-side"] {
+		width: 100% !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	} 
+
+	table[class="cta-event-list"] li a {
+		display: inline !important;
+	}
+
+	p[class="hero-text"] {
+		display: block !important;
+		font-family: 'Merriweather', Constantia, Georgia, serif;
+		font-size: 14px !important;
+		font-weight: normal !important;
+		color: #fff !important;
+		width: 80% !important;
+		mso-line-height-rule:exactly;
+		line-height: 130% !important;
+	}
+
+	p[class="phone-centered"] {
+		text-align: left !important;
+	}
+
+	/* Outlook.com fix */
+	.ExternalClass p[class="phone-centered"] {
+		text-align: center !important;
+	}
+
+	table[class="cta-orange"] {
+		text-align: left !important;
+	}
+
+	table[class="cta-orange"] span {
+		font-size: 14px !important;
+		text-align: left !important;
+	}
+
+	table[class="cta-white"] p {
+		font-size: 14px !important;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+	.hero {
+		background: #444 url('https://hope.edu/admiss/email/athletics/2018-0125-congrats-admit-female/img/hero_retina.jpg') no-repeat center center !important;
+		background-size: cover !important;
+	}
+
+	.callout {
+		background: #007888 url('https://hope.edu/admiss/email/athletics/2018-0125-congrats-admit-female/img/callout_retina.jpg') no-repeat top center !important;
+		background-size: cover !important;
+	}
+}

@@ -1,0 +1,213 @@
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <title>Application to Hope College</title>
+  
+  <style>
+	
+		.background-table {
+			background: #5482AB;
+			width: 100%;
+		}
+		
+		.content-table {
+			padding: 3px;
+			margin: 10px 0;
+			background-color: #FFFFFF; box-shadow: -moz-box-shadow: 0px 0px 8px #4D4F53; -webkit-box-shadow: 0px 0px 8px #4D4F53; box-shadow: 0x 0px 8px #4D4F53;
+		}
+		
+		.header {
+			display: block;
+			border: 0px;
+		}
+		
+		.tagline {
+			padding: 8px 6px;
+			background-color: #ffffff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			color: #000000;
+			line-height: 100%;
+			letter-spacing: 1px;
+		}
+		
+		.quick-links {
+			padding: 8px 0;
+			border-right: 6px #FFFFFF solid;
+			background-color: #ffffff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			color: #000000;
+			line-height: 100%;
+	  }
+		
+		a {
+			color: #F46A1F;
+			font-weight: bold;
+		}
+		
+		p {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 13px;
+			color: #4D4F53;
+			line-height: 150%;
+		}
+	
+		.message {
+			padding: 10px 20px;
+			background: #FFFFFF;
+		}
+		
+		.message ul li {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 13px;
+			color: #4D4F53;
+			line-height: 150%;
+		}
+		
+		.headline {
+			font-size: 24px;
+			font-family: Georgia, serif;
+			color: #F46A1F;
+			padding: 5px 0 10px 0;
+		}
+		
+		.subhead {
+			font-size: 14px;
+			font-family: Georgia, serif;
+			color: #5482AB;
+		}
+	
+		.padding-row {
+			font-size: 5px;
+		}
+		
+		.footer {
+			background-color: #002244;
+			border-top: 6px #FFFFFF solid;
+			padding: 12px;
+			font-size: 12px;
+			color: #ffffff;
+			line-height: 150%; 
+			font-family: Arial, sans-serif;
+		}
+		
+		img {
+			border: 0;
+		}
+	
+	</style>
+  
+</head>
+
+<body>
+  
+  <!-- Background Table -->
+  
+  <table class="background-table" width="100%">
+    <tr>
+      <td align="center" valign="top">
+        
+        <!-- Content Table -->
+        
+        <table class="content-table" width="600">
+          <tr>
+            <td>
+              
+              <!-- Header Image -->
+
+              <table cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                  <td class="header">
+                    
+                    <div>
+                      <a href="http://www.hope.edu/admissions"><img alt="Hope: Learn it. Love it. Live it." border="0" height="120" src="http://www.hope.edu/admiss/email/graphics/email-header.gif" width="600"></a>
+                    </div>
+                  
+                  </td>
+                </tr>
+              </table>
+              
+              <table cellpadding="0" cellspacing="0" width="600">
+                
+                <!-- Subtitle and Quick Links -->
+
+                <tr class="subtitle">
+                  <td class="tagline" align="right" border="0" width="380">
+                  	ENVISION YOUR STUDENT'S FUTURE AT <strong>HOPE COLLEGE</strong>
+                  </td>
+                </tr>
+                
+                <!-- Body Content -->
+
+                <tr>
+                  <td class="message" align="left" valign="top" width="600" colspan="2">
+                    
+                    <div class="headline">
+                    	Greetings from Hope College Admissions.
+                    </div>
+                    
+                    <p>
+                    	 <b>We were pleased to receive ${Contacts.Preferred First Name}'s application for admission.</b>
+                    </p>
+
+                    <p>
+                    	We recognize the important role parents play in their child’s eventual college choice. This communication, and several to follow, are designed to keep you informed throughout the process. This email has been sent to the email address(es) of both parents provided on ${Contacts.Preferred First Name}'s application. We hope you find them helpful! 
+                    </p>
+
+                    <p>
+                    	<b>Hope College Admissions</b>
+                    </p>
+
+										<div class="subhead">
+											Application and Scholarship Processing
+										</div>
+										
+										<ul>
+											<li>All applicants have a "portal" through which they can see whether their application is complete. Information about this portal is sent to the student's email address after receiving the application.</li>
+											<li>Students whose applications remain incomplete are sent an email (to the student's email address) letting them know and reminding them of the portal as a way to see what is missing.</li>
+											<li>Students whose applications are complete by November 1 are sent a decision letter the first week of December. Applications completed after November 1 are processed on a rolling basis. These applicants are usually notified within 4-5 weeks after the application becomes complete.</li>
+											<li>Students eligible to receive an academic scholarship are sent a letter about 3 weeks after the letter of admission.</li>
+										</ul>
+										
+										<div class="subhead">
+											Your Resource
+										</div>
+										
+										<p>
+											{if [(%{Contacts.Recruiter - Contact} == 'Adam Hopkins')]}<a href="http://www.hope.edu/admissions/contact/adam-hopkins">Adam Hopkins</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Amy Norris')]}<a href="http://www.hope.edu/admissions/contact/amy-norris">Amy Norris</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Andrew Meyers')]}<a href="http://www.hope.edu/admissions/contact/andrew-meyers">Andrew Meyers</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Barbara Miller')]}<a href="http://www.hope.edu/admissions/contact/barbara-miller">Barbara Miller</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Bill Vanderbilt')]}<a href="http://www.hope.edu/admissions/contact/bill-vanderbilt">Bill Vanderbilt</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Carol Fritz')]}<a href="http://www.hope.edu/admissions/contact/carol-fritz">Carol Fritz</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Carrie Olesh')]}<a href="http://www.hope.edu/admissions/contact/carrie-olesh">Carrie Olesh</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Christine Powers')]}<a href="http://www.hope.edu/admissions/contact/christine-powers">Christine Powers</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Christy Statema')]}<a href="http://www.hope.edu/admissions/contact/christy-statema">Christy Statema</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Gary Camp')]}<a href="http://www.hope.edu/admissions/contact/gary-camp">Gary Camp</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Greg Kern')]}<a href="http://www.hope.edu/admissions/contact/greg-kern">Greg Kern</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Henry Morrow')]}<a href="http://www.hope.edu/admissions/contact/henry-morrow">Henry Morrow</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Jessica Root')]}<a href="http://www.hope.edu/admissions/contact/jessica-root">Jessica Root</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Karl Hoesch')]}<a href="http://www.hope.edu/admissions/contact/karl-hoesch">Karl Hoesch</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Kristin Diekevers')]}<a href="http://www.hope.edu/admissions/contact/kristin-diekevers">Kristin Diekevers</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Laura Bainbridge')]}<a href="http://hope.edu/admissions/contact/laura-bainbridge">Laura Bainbridge</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Leah Dykstra')]}<a href="http://www.hope.edu/admissions/contact/leah-dykstra">Leah Dykstra</a>{/if}{if [(%{Contacts.Recruiter - Contact} == 'Luis Silva')]}<a href="http://www.hope.edu/admissions/contact/luis-silva">Luis Silva</a>{/if}﻿{if [(%{Contacts.Recruiter - Contact} == 'Skyler Adams')]}<a href="http://www.hope.edu/admissions/contact/skyler-adams">Skyler Adams</a>{/if} is your Hope Representative and is a good first person to contact regarding the <a href="http://hope.edu/admissions/apply">application for admission</a>, the <a href="http://hope.edu/admissions/costs-financial-aid-and-scholarships">financial aid/scholarship process</a>, and other aspects of the Hope experience.
+										</p>
+																				
+										<div class="subhead">
+											Did You Know&hellip; 
+										</div>
+                    
+                    <ul>
+                    	<li>Information that can impact the scholarship's value, such as 7th semester grades, new ACT or SAT, etc., must be received by February 15th.</li>
+                    	<li>Students interested in the arts and creative writing can apply for a <a href="http://www.hope.edu/daa">Distinguished Artist Award</a>.</li>
+                    	<li>Parents of current students have offered their insights and to answer your specific questions. <a href="http://hope.edu/admissions/contact/parent-contact-program">Read them here.</a></li>
+                    </ul>
+                    
+                  </td>
+
+                <!-- Footer Area -->
+                
+                <tr>
+                  <td class="footer" align="right" colspan="2" valign="top">
+                    <div>
+                      <span><a href="http://www.hope.edu/admissions"><img align="left" alt="Hope College" border="0" height="36" src="http://www.hope.edu/admiss/email/graphics/email-logo.png" style="display: block;" width="252"></a>69 East 10th Street | PO Box 9000 | Holland, MI 49422<br>
+                      800.968.7850 | <a href="http://www.hope.edu/admissions" style="font-weight: bold;">hope.edu/admissions</a></span>
+                    </div>
+                  </td>
+                </tr>
+              
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
