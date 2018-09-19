@@ -46,7 +46,7 @@ table {
 .hero {
 	height: 230px;
 	color: #fff;
-	background: #444 url('https://xd1936.github.io/hope-radius-emails/strategy/2018-0118-hope-story/img/hero.jpg') no-repeat center center;
+	background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-0118-hope-story/img/hero.jpg') no-repeat center center;
 }
 
 .hero-title {
@@ -542,7 +542,7 @@ ol.content-list {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 	.hero {
-		background: #444 url('https://xd1936.github.io/hope-radius-emails/strategy/2018-0118-hope-story/img/hero_retina.jpg') no-repeat center center !important;
+		background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-0118-hope-story/img/hero_retina.jpg') no-repeat center center !important;
 		background-size: cover !important;
 	}
 
