@@ -50,7 +50,7 @@ table {
 .hero {
 	height: 230px;
 	color: #fff;
-	background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-0920-academic-humanities/img/hero.gif') no-repeat center center;
+	background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-0920-academic-humanities/img/hero.jpg') no-repeat center center;
 }
 
 .hero-title {
@@ -562,7 +562,7 @@ ol.content-list {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 	.hero {
-		background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-0920-academic-humanities/img/hero_retina.gif') no-repeat center center !important;
+		background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-0920-academic-humanities/img/hero_retina.jpg') no-repeat center center !important;
 		background-size: cover !important;
 	}
 
