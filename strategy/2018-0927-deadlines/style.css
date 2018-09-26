@@ -559,12 +559,12 @@ ol.content-list {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 	.hero {
-		background: #444 url('https://hopeadmissions.github.io/email/strategy/2018-0927-deadlines/img/hero_retina.jpg') no-repeat center center !important;
+		background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-0927-deadlines/img/hero_retina.jpg') no-repeat center center !important;
 		background-size: cover !important;
 	}
 
 	.callout {
-		background: #007888 url('https://hopeadmissions.github.io/email/strategy/2018-0927-deadlines/img/callout_retina.jpg') no-repeat top center !important;
+		background: #007888 url('https://hopeadmissions.github.io/emails/strategy/2018-0927-deadlines/img/callout_retina.jpg') no-repeat top center !important;
 		background-size: cover !important;
 	}
 }
