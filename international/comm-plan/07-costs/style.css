@@ -46,7 +46,7 @@ table {
 .hero {
 	height: 230px;
 	color: #fff;
-	background: #444 url('https://hopeadmissions.github.io/email/international/comm-plan/07-costs/img/hero.jpg') no-repeat center center;
+	background: #444 url('https://hopeadmissions.github.io/emails/international/comm-plan/07-costs/img/hero.jpg') no-repeat center center;
 }
 
 .hero-title {
@@ -387,7 +387,7 @@ table {
 .callout {
 	height: 200px;
 	color: #fff;
-	background: #007888 url('https://hopeadmissions.github.io/email/international/comm-plan/07-costs/img/callout.jpg') no-repeat top center;
+	background: #007888 url('https://hopeadmissions.github.io/emails/international/comm-plan/07-costs/img/callout.jpg') no-repeat top center;
 }
 
 .callout-title {
