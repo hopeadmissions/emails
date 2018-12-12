@@ -453,7 +453,7 @@ ol.content-list {
 @media only screen and (min-width: 480px) {
 	
 	table[class="hero"] {
-		height: 390px !important;
+		height: 325px !important;
 	}
 
 	p[class="hero-title"] {
