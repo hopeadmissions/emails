@@ -44,7 +44,7 @@ table {
 }
 
 .hero {
-	width: auto;
+	width: 100%;
 	height: auto;
 	color: #fff;
 	background: #444 url('https://hopeadmissions.github.io/emails/strategy/2018-1213-president/img/hero.jpg') no-repeat center center;
@@ -454,7 +454,6 @@ ol.content-list {
 @media only screen and (min-width: 480px) {
 	
 	table[class="hero"] {
-		width: 100% !important;
 		height: 325px !important;
 	}
 
