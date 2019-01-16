@@ -207,6 +207,7 @@ table {
 
 .cta-orange {
 	margin: 0;
+	padding: 20px;
 	font-size: 14px;
 	mso-line-height-rule:exactly;
 	line-height: 20px;
@@ -216,7 +217,7 @@ table {
 	text-align: center;
 }
 
-.cta-orange span {
+.cta-orange a {
 	margin: 0 auto !important;
 	color: #ffffff;
 	font-family: 'Merriweather', Constantia, Georgia, serif;
