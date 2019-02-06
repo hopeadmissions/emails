@@ -138,6 +138,17 @@ table {
 	color: #585552;
 }
 
+.quote {
+	margin-bottom: 18px;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	border-left: 4px solid #5482AB !important;
+  color: #bcbab6 !important;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 175%;
+  padding: 0 0 0 20px;
+}
+
 .footer {
 	height: 340px;
 	color: #fff;
