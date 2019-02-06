@@ -46,7 +46,7 @@ table {
 .hero {
 	height: 230px;
 	color: #fff;
-	background: #444 url('https://hopeadmissions.github.io/emails/strategy/2019/0124-hope-alums-tech/img/hero.jpg') no-repeat center center;
+	background: #444 url('https://hopeadmissions.github.io/emails/strategy/2019/0207-parent-reflections/img/hero.jpg') no-repeat center center;
 }
 
 .hero-title {
@@ -376,7 +376,7 @@ table {
 .callout {
 	height: 200px;
 	color: #fff;
-	background: #007888 url('https://hopeadmissions.github.io/emails/strategy/2019/0124-hope-alums-tech/img/callout.jpg') no-repeat top center;
+	background: #007888 url('https://hopeadmissions.github.io/emails/strategy/2019/0207-parent-reflections/img/callout.jpg') no-repeat top center;
 }
 
 .callout-title {
@@ -543,12 +543,12 @@ ol.content-list {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 	.hero {
-		background: #444 url('https://hopeadmissions.github.io/emails/strategy/2019/0124-hope-alums-tech/img/hero_retina.jpg') no-repeat center center !important;
+		background: #444 url('https://hopeadmissions.github.io/emails/strategy/2019/0207-parent-reflections/img/hero_retina.jpg') no-repeat center center !important;
 		background-size: cover !important;
 	}
 
 	.callout {
-		background: #007888 url('https://hopeadmissions.github.io/emails/strategy/2019/0124-hope-alums-tech/img/callout_retina.jpg') no-repeat top center !important;
+		background: #007888 url('https://hopeadmissions.github.io/emails/strategy/2019/0207-parent-reflections/img/callout_retina.jpg') no-repeat top center !important;
 		background-size: cover !important;
 	}
 }
