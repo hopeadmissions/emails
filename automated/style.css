@@ -206,14 +206,22 @@ table {
 }
 
 .cta-orange {
-	margin: 0;
-	font-size: 14px;
+	margin-bottom: 26px;
+	padding: 20px;
+	font-size: 16px;
 	mso-line-height-rule:exactly;
-	line-height: 20px;
+	line-height: 24px;
 	color: #fff;
 	background: #F46A1F;
 	border-bottom: 3px solid #C6561A !important;
-	text-align: center;
+	text-align: left;
+}
+
+.cta-orange a {
+	margin: 0 auto !important;
+	color: #ffffff;
+	font-family: 'Merriweather', Constantia, Georgia, serif;
+	font-size: 14px;
 }
 
 .cta-orange span {
