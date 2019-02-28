@@ -225,14 +225,14 @@ table {
 	color: #fff;
 	background: #F46A1F;
 	border-bottom: 3px solid #C6561A !important;
-	text-align: left;
+	text-align: center;
 }
 
 .cta-orange a {
 	margin: 0 auto !important;
 	color: #ffffff;
 	font-family: 'Merriweather', Constantia, Georgia, serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .cta-white p {
