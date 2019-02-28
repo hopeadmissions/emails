@@ -65,7 +65,9 @@
 							
 								<p>Dear ${Contacts.Preferred First Name},</p>
   
-                <p>This past month, Hope College mailed ${Contacts.Preferred First Name} an important piece: <strong>{if [(%{Contacts.Gender} == 'Female')]}her{/if}{if [(%{Contacts.Gender} == 'Male')]}his{/if}{if [(%{Contacts.Gender} == 'Not Specified')]}their{/if}{if [(%{Contacts.Gender} == EMPTY)]}their{/if} financial aid package.</strong></p> 
+                <p>This past month, Hope College mailed ${Contacts.Preferred First Name} an important piece: <strong>{if [(%{Contacts.Gender} == 'Female')]}her{/if}{if [(%{Contacts.Gender} == 'Male')]}his{/if}{if [(%{Contacts.Gender} == 'Not Specified')]}their{/if}{if [(%{Contacts.Gender} == EMPTY)]}their{/if} financial aid package:</strong></p>
+                
+                <p><img src="https://hopeadmissions.github.io/emails/strategy/2019/0228-best-fit/img/fin_aid.png"></p>
 
                 <p>For many high school seniors and their families, the college selection process includes a comparison of financial aid offers. As you and ${Contacts.Preferred First Name} narrow the list and weigh the options, do you know the critical questions you should be asking? <a href="https://blogs.hope.edu/students/admissions/comparing-financial-aid-ask-these-questions?utm_source=radius&utm_campaign=2019_packaged_parents_022819&utm_medium=email">A recent blog post from our Admissions team</a> shares those questions and offers some tips on how to compare aid packages.</p>
                 
