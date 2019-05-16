@@ -10,21 +10,21 @@
  
 <body>
 
-  <p>${Contacts.Preferred First Name},</p>
+  <p>${Contacts.Mothers First Name},</p>
 
-  <p>Hello! As you wrap up your junior year I&rsquo;m guessing your college search is getting real, and I&rsquo;m here to help along the way.</p>
+  <p>Hello! I&rsquo;m Bill Vanderbilt, Vice President for Admissions here at Hope College. As ${Contacts.Preferred First Name} wraps up {if [(%{Contacts.Gender} == 'Female')]}her{/if}{if [(%{Contacts.Gender} == 'Male')]}his{/if}{if [(%{Contacts.Gender} == 'Not Specified')]}their{/if}{if [(%{Contacts.Gender} == EMPTY)]}their{/if} junior year I&rsquo;m guessing the college search is getting real, and we&rsquo;re here to help along the way.</p>
+
+  <p>I know that choosing a college is a big decision, so I&rsquo;d like to offer you a little advice! Like any big project, you and ${Contacts.Preferred First Name} have to take this one in a bunch of little steps. Let&rsquo;s start with this summer&hellip;</p>
   
-  <p>I know that choosing your college is a big decision, so I&rsquo;d like to offer you a little advice! Like any big project, take this one in a bunch of little steps. Let&rsquo;s start with this summer&hellip;</p>
+  <p><strong>Step 1:</strong> Your mission for May, June, and July: help ${Contacts.Preferred First Name} identify the colleges &amp; universities to which {if [(%{Contacts.Gender} == 'Female')]}she{/if}{if [(%{Contacts.Gender} == 'Male')]}he{/if}{if [(%{Contacts.Gender} == 'Not Specified')]}they{/if}{if [(%{Contacts.Gender} == EMPTY)]}they{/if} might apply this fall.</p>
   
-  <p><strong>Step 1:</strong> Your mission for May, June, and July: identify the colleges &amp; universities to which you might apply this fall.</p>
-  
-  <p><strong>Step 2:</strong> Make plans to visit the colleges on your list. And don&rsquo;t just drive through campuses (although that&rsquo;s better than nothing) &mdash; actually schedule an official campus visit with all of the schools that interest you.</p>
+  <p><strong>Step 2:</strong> Make plans to visit the colleges on ${Contacts.Preferred First Name}&rsquo;s list. And don&rsquo;t just drive through campuses (although that&rsquo;s better than nothing) &mdash; actually schedule an official campus visit with all of the schools that interest you.</p>
   
   <p>We&rsquo;ve got ten current Hope students in our office who are making Holland their home for the summer so that they can welcome you to our community and show you around. <a href="https://hope.edu/admissions/visit/summer-visits.html?utm_source=radius&utm_medium=email&utm_campaign=2020_all_051619">Schedule your summer visit to Hope College today.</a></p>
   
   <p>See you soon,</p>
   
-  <p>Bill Vanderbilt
+  <p>Bill Vanderbilt<br>
   Vice President for Admissions</p>
 
 </body>
