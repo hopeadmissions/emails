@@ -222,11 +222,11 @@ table {
 	text-align: center;
 }
 
-.cta-orange span {
+.cta-orange a {
 	margin: 0 auto !important;
 	color: #ffffff;
 	font-family: 'Merriweather', Constantia, Georgia, serif;
-	font-size: 16px;
+	font-size: 16px;s
 }
 
 .cta-white p {
